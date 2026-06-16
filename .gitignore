@@ -1,0 +1,24 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python files should not be included in this repository
+*.py
+__pycache__/
+*.pyc
+
+# Large raw medical image files
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nhdr
+
+# Keep exported project files allowed
+# Do not ignore these unless files are too large:
+# *.nrrd
+# *.mrml
+# *.stl
+# *.obj
+# *.ply
