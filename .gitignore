@@ -2,12 +2,14 @@
 .DS_Store
 Thumbs.db
 
-# Python files should not be included in this repository
-*.py
-__pycache__/
-*.pyc
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
 
-# Large raw medical image files
+# Raw medical image files
 *.dcm
 *.nii
 *.nii.gz
@@ -15,10 +17,10 @@ __pycache__/
 *.mhd
 *.nhdr
 
-# Keep exported project files allowed
-# Do not ignore these unless files are too large:
-# *.nrrd
-# *.mrml
-# *.stl
-# *.obj
-# *.ply
+# Large intermediate Slicer data files
+*.h5
+*.hdf5
+
+# Keep exported portfolio files allowed
+# The following file types are intentionally allowed:
+# .png, .stl, .obj, .ply, .nrrd, .mrml, .txt
